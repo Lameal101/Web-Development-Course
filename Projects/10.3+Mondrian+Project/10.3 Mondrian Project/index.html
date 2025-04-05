@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    .Flexcontainer{
+      display: flex;
+      justify-content: center;
+    }
+    .container{
+      display: grid;
+      grid-template-columns: 311px 428px;
+      grid-template-rows: 414px 325px;
+      gap: 9px;
+      background-color: #000;
+      height: 748px;
+      width: 748px;
+    }
+    .red{
+      background-color: #e72f24;
+    }
+    .white{
+      background-color: #F0F1EC;
+    }
+    .white1{
+      background-color: #F0F1EC;
+      display: grid;
+      grid-template-columns: 320px;
+      grid-template-rows: 295px 20px;
+      gap: 9px;
+    }
+    .white2{
+      background-color: #000;
+      display: grid;
+      grid-template-columns: 369px 50px;
+      grid-template-rows: 325px;
+      gap: 9px;
+    }
+    .white3{
+      background-color: #000;
+      display: grid;
+      grid-template-columns: 369px;
+      grid-template-rows: 295px 21px;
+      gap: 9px;
+    }
+    .white4{
+      background-color: #000;
+      display: grid;
+      grid-template-columns: 198px 162px;
+      grid-template-rows: 21px;
+      gap: 9px;
+    }
+    .white5{
+      background-color: #000;
+      display: grid;
+      grid-template-columns: 50px;
+      grid-template-rows: 130px 185px;
+      gap: 10px;
+    }
+    .yellow{
+      background-color: #F9D01E;
+    }
+    .black{
+      background-color: #232629;
+    }
+    .blue{
+      background-color: #004592;
+    }
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+  </style>
+</head>
+
+<body class = "Flexcontainer">
+<div class = "container">
+  <div class = "red"></div>
+  <div class = "white"></div>
+  <div class = "white1"></div>
+  <div class = "white2">
+    <div class = "white3">
+      <div class = "white"></div>
+      <div class = "white4">
+        <div class = "yellow"></div>
+        <div class = "black"></div>
+      </div>
+    </div>
+    <div class = "white5">
+      <div class = "blue"></div>
+      <div class = "white"></div>
+    </div>
+  </div>
+</div>
+</body>
+
+</html>
